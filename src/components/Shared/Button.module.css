@@ -1,0 +1,19 @@
+.btn {
+	color: var(--white);
+	width: fit-content;
+	background-color: var(--back-color);
+	display: inline-block;
+	border-radius: 12px;
+	border-color: var(--white);
+	border: none;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-family: inherit;
+}
+
+.btn:hover {
+	background: var(--white);
+	text-decoration: none;
+	color: var(--black);
+}

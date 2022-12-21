@@ -1,13 +1,12 @@
 .hero {
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
 .headertxt {
 	display: inline-block;
-	margin-bottom: 200px;
 	font-size: xxx-large;
 }
 

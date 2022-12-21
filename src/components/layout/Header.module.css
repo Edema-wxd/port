@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	gap: 6rem;
+	justify-content: start;
+	padding: 20px;
+}
+
+.linkarr {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 20px;
+}
