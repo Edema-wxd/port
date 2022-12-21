@@ -1,9 +1,8 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import Land from "./components/landing/Land";
 import Port from "./components/Port/Port";
-
-import {} from "react-dom";
 
 function App() {
 	return (
