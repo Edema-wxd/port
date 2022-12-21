@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./landing.module.scss";
+import style from "./landing.module.css";
 
 function Hero() {
 	return (
