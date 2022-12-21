@@ -1,17 +1,17 @@
-.hero{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .headertxt {
-    display: inline-block;
-    margin-bottom: 200px;
-    font-size: xxx-large;
+	display: inline-block;
+	margin-bottom: 200px;
+	font-size: xxx-large;
 }
 
 .skills {
-    color: #1f1926;
-    background-color: #9b89b3;
+	color: #1f1926;
+	background-color: #9b89b3;
 }

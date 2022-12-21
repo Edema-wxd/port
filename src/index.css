@@ -1,0 +1,23 @@
+:root {
+	--back-color: #5927e5;
+	--black: #1f1926;
+	--white: #fcf7ff;
+}
+
+#root {
+	font-family: sans-serif;
+	color: var(--white);
+	background-image: linear-gradient(
+		to bottom left,
+		var(--black),
+		var(--back-color)
+	);
+	height: max-content;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0%;
+	border: 0%;
+}
