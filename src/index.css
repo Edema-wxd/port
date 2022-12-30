@@ -1,20 +1,15 @@
 :root {
-	--back-color: #5927e5;
-	--black: #1f1926;
-	--white: #fcf7ff;
+	--back-color: #06bcc1;
+	--black: #120d31;
+	--white: #fcf7f8;
+	--dull: #f0f8ffbf;
 }
 
 #root {
-	font-family: sans-serif;
+	font-family: "Lato", sans-serif;
 	color: var(--white);
-	background-image: linear-gradient(
-		to bottom left,
-		var(--black),
-		var(--back-color)
-	);
+	background-color: var(--black);
 	height: max-content;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 body {

@@ -1,11 +1,14 @@
 import React from "react";
 import style from "./Contact.module.css";
-
-
+/**
+import { FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
+import { BsTelephone } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+ */
 function Contact() {
 	return (
 		<>
-			<div className={style.Contact}>
+			<div className={style.Contact} id="contact">
 				<form>
 					<h1>Contact me</h1>
 					<br />

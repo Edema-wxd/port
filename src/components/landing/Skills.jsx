@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./landing.module.css";
+import style from "./skills.module.css";
 
 function Skills() {
 	return (

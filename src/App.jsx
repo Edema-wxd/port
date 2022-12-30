@@ -10,8 +10,6 @@ function App() {
 			<Router>
 				<Routes>
 					<Route exact path="/" element={<Land />}></Route>
-					<Route exact path="/contact" element={<Contact />} />
-					<Route exact path="/portfolio" element={<Port />} />
 				</Routes>
 			</Router>
 		</>
