@@ -7,7 +7,7 @@
 
 #root {
 	font-family: "Lato", sans-serif;
-	color: var(--white);
+	color: var(--dull);
 	background-color: var(--black);
 	height: max-content;
 }
