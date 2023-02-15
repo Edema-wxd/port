@@ -1,0 +1,5 @@
+.Port {
+	display: flex;
+	padding: 0rem 6rem 1rem;
+	justify-content: space-between;
+}

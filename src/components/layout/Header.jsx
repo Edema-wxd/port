@@ -1,7 +1,7 @@
 import React from "react";
 //import { useState } from "react";
-import { Link } from "react-router-dom";
 import style from "./Header.module.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
 	return (
@@ -11,18 +11,18 @@ function Header() {
 			<div className={style.drop}>
 				<button className={style.menubtn}>Dropdown</button>
 				<div className={style.linkarr} id="myDropdown">
-					<Link className={style.link} to={"/"}>
+					<AnchorLink className={style.link} href="#hero">
 						About
-					</Link>
-					<Link className={style.link} to={"/"}>
+					</AnchorLink>
+					<AnchorLink className={style.link} href="/">
 						Services
-					</Link>
-					<Link className={style.link} to={"#portfolio"}>
+					</AnchorLink>
+					<AnchorLink className={style.link} href="#portfolio">
 						Portfolio
-					</Link>
-					<Link className={style.link} to="#contact">
+					</AnchorLink>
+					<AnchorLink className={style.link} href="#contact">
 						Contact
-					</Link>
+					</AnchorLink>
 				</div>
 			</div>
 		</div>

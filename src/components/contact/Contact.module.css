@@ -47,13 +47,16 @@
 	font-size: 1rem;
 	font-family: inherit;
 	height: 2rem;
-	width: 80%;
+	width: 100%;
 	border-radius: 5px;
 	border-width: 0px;
 	color: var(--white);
 	background-color: var(--dblack);
+	padding-left: 8px;
+	padding-top: 4px;
 }
 #messtxt {
+	resize: none;
 	height: 6rem;
 }
 

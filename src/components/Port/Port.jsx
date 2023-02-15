@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "../layout/Header";
-import Footer from "../layout/Footer";
+import style from "./port.module.css";
 
 function Port() {
 	return (
-		<>
-			<Header />
-
-			<Footer />
-		</>
+		<div className={style.Port} id="portfolio">
+			<h1>Portfolio</h1>
+		</div>
 	);
 }
 

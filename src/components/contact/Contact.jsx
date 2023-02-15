@@ -62,8 +62,6 @@ function Contact() {
 						className={style.infield}
 						id={style.messtxt}
 						name="textarea"
-						rows="4"
-						cols="30"
 						placeholder="Send me a Message"
 						wrap="hard"
 					></textarea>
