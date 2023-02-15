@@ -14,7 +14,7 @@ function Header() {
 					<AnchorLink className={style.link} href="#hero">
 						About
 					</AnchorLink>
-					<AnchorLink className={style.link} href="/">
+					<AnchorLink className={style.link} href="#skills">
 						Services
 					</AnchorLink>
 					<AnchorLink className={style.link} href="#portfolio">

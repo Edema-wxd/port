@@ -1,11 +1,22 @@
 .hero {
 	text-align: center;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	padding: 0rem 6rem;
 }
 
 .headertxt {
 	display: inline-block;
 	font-size: xxx-large;
+}
+.Htxt {
+	width: 45%;
+}
+.HTt {
+	text-align: left;
+	line-height: 2rem;
+}
+.Himg {
+	width: 45%;
 }
