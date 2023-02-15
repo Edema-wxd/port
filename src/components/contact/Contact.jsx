@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Shared/Button";
 import style from "./Contact.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
@@ -67,7 +68,7 @@ function Contact() {
 						wrap="hard"
 					></textarea>
 					<br />
-					<button type="submit">send</button>
+					<Button type={"submit"}>send</Button>
 					<br />
 				</form>
 			</div>
