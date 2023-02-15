@@ -68,7 +68,7 @@ function Contact() {
 						wrap="hard"
 					></textarea>
 					<br />
-					<Button type={"submit"}>send</Button>
+					<Button type={"submit"}>Send</Button>
 					<br />
 				</form>
 			</div>
