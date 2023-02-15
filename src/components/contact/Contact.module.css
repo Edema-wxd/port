@@ -1,8 +1,65 @@
+.contact {
+	display: flex;
+	padding: 0rem 6rem 1rem;
+	justify-content: space-between;
+}
 
+.add {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.addblock {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: flex-start;
+}
+.addtxt {
+	margin: 0px;
+}
 
+.conlink {
+	width: 40%;
+}
+.conlinkarr {
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+	gap: 1.25rem;
+}
 
-.labels{
-    color: var(--white);
-    margin: 0 auto;
-    font-size: large;
+.conform {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	justify-content: flex-start;
+	width: 40%;
+}
+
+.labels {
+	color: var(--white);
+	font-size: large;
+}
+
+.infield {
+	font-size: 1rem;
+	font-family: inherit;
+	height: 2rem;
+	width: 80%;
+	border-radius: 5px;
+	border-width: 0px;
+	color: var(--white);
+	background-color: var(--dblack);
+}
+#messtxt {
+	height: 6rem;
+}
+
+.icons {
+	height: 1.25rem;
+	width: 1.25rem;
+	stroke: #0066cc;
+	color: #0066cc;
 }

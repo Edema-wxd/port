@@ -3,8 +3,8 @@
 	flex-direction: row;
 	gap: 6rem;
 	justify-content: space-between;
-	padding: 1.25rem 2rem;
-	box-shadow: 0px 0px 10px 2px var(--back-color);
+	padding: 2rem 6rem;
+	box-shadow: 0px -5px 11px 2px var(--back-color);
 	position: sticky;
 	z-index: 5;
 	top: 0;
@@ -18,11 +18,16 @@
 	color: var(--white);
 }
 
+.drop {
+	display: flex;
+	align-content: center;
+}
+
 .linkarr {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	gap: 20px;
+	gap: 3rem;
 }
 
 .link {
@@ -36,56 +41,6 @@
 	color: var(--back-color);
 }
 
-.drop {
+.menubtn {
 	display: none;
-}
-
-/* Dropdown Button */
-.dropbtn {
-	background-color: #3498db;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover,
-.dropbtn:focus {
-	background-color: #2980b9;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	background-color: #ddd;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-	display: block;
 }

@@ -1,42 +1,73 @@
 import React from "react";
 import style from "./Contact.module.css";
-/**
-import { FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
- */
+import { TiLocation } from "react-icons/ti";
+
 function Contact() {
 	return (
 		<>
-			<div className={style.Contact} id="contact">
-				<form>
+			<div className={style.contact} id="contact">
+				<div className={style.conlink}>
 					<h1>Contact me</h1>
+
+					<p>
+						Please reach out to me through my email, phone number, social media.
+					</p>
+					<div className={style.add}>
+						<div className={style.addblock}>
+							<TiLocation className={style.icons} />
+							<p className={style.addtxt}>Ibadan - Nigeria</p>
+						</div>
+						<div className={style.addblock}>
+							<BsTelephone className={style.icons} />
+							<p className={style.addtxt}>+2348127576854</p>
+						</div>
+						<div className={style.addblock}>
+							<FiMail className={style.icons} />
+							<p className={style.addtxt}>woodsedema@gmail.com</p>
+						</div>
+					</div>
+
+					<div className={style.conlinkarr}>
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<FaLinkedin className={style.icons} />
+						</a>
+						<a href="http://" target="_blank" rel="noopener noreferrer">
+							<FaGithub className={style.icons} />
+						</a>
+					</div>
+				</div>
+				<form className={style.conform}>
 					<br />
-					<label className={style.labels} for="text">
-						Name
-					</label>
+					<input
+						className={style.infield}
+						type="text"
+						id="name"
+						name="text"
+						placeholder="Your name"
+					/>
 					<br />
-					<input type="text" id="name" name="text" />
-					<br />
-					<label className={style.labels} for="email">
-						Email
-					</label>
-					<br />
-					<input type="email" id="email" name="email" />
-					<br />
-					<label className={style.labels} for="textarea">
-						Message
-					</label>
+					<input
+						className={style.infield}
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Your email"
+					/>
 					<br />
 					<textarea
-						id="mess-text"
+						className={style.infield}
+						id={style.messtxt}
 						name="textarea"
-						rows="3"
-						cols="25"
+						rows="4"
+						cols="30"
 						placeholder="Send me a Message"
 						wrap="hard"
 					></textarea>
 					<br />
+					<button type="submit">send</button>
 					<br />
 				</form>
 			</div>

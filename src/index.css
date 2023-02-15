@@ -1,6 +1,7 @@
 :root {
 	--back-color: #06bcc1;
 	--black: #120d31;
+	--dblack: #19133f;
 	--white: #fcf7f8;
 	--dull: #f0f8ffbf;
 }
@@ -14,5 +15,4 @@
 
 body {
 	margin: 0%;
-	border: 0%;
 }
