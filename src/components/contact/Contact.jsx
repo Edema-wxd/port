@@ -1,12 +1,45 @@
 import React from "react";
 import Button from "../Shared/Button";
 import style from "./Contact.module.css";
+import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { TiLocation } from "react-icons/ti";
 
 function Contact() {
+	const [name, setName] = useState("");
+	const [note, setNote] = useState("");
+	const [message, setMessage] = useState("");
+	const [btnDisabled, setbtnDisabled] = useState(true);
+
+	const handleNameChange = (e) => {
+		if (name === "") {
+			setbtnDisabled(true);
+			setMessage(null);
+		} else if (name !== "" && name.trim().length <= 5) {
+			setMessage("Name must be longer than that");
+			setbtnDisabled(true);
+		} else {
+			setMessage(null);
+			setbtnDisabled(false);
+		}
+		setName(e.target.value);
+	};
+	const handleNoteChange = (e) => {
+		if (note === "") {
+			setbtnDisabled(true);
+			setMessage(null);
+		} else if (note !== "" && note.trim().length <= 10) {
+			setMessage("Message must be longer than that");
+			setbtnDisabled(true);
+		} else {
+			setMessage(null);
+			setbtnDisabled(false);
+		}
+		setNote(e.target.value);
+	};
+
 	return (
 		<>
 			<div className={style.contact} id="contact">
@@ -32,10 +65,10 @@ function Contact() {
 					</div>
 
 					<div className={style.conlinkarr}>
-						<a href="http://" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.linkedin.com/in/francis-edema-woods">
 							<FaLinkedin className={style.icons} />
 						</a>
-						<a href="http://" target="_blank" rel="noopener noreferrer">
+						<a href="https://github.com/Edema-wxd">
 							<FaGithub className={style.icons} />
 						</a>
 					</div>
@@ -47,7 +80,10 @@ function Contact() {
 						type="text"
 						id="name"
 						name="text"
+						value={name}
 						placeholder="Your name"
+						onChange={handleNameChange}
+						required
 					/>
 					<br />
 					<input
@@ -56,6 +92,7 @@ function Contact() {
 						id="email"
 						name="email"
 						placeholder="Your email"
+						required
 					/>
 					<br />
 					<textarea
@@ -64,10 +101,16 @@ function Contact() {
 						name="textarea"
 						placeholder="Send me a Message"
 						wrap="hard"
+						value={note}
+						onChange={handleNoteChange}
+						required
 					></textarea>
 					<br />
-					<Button type={"submit"}>Send</Button>
+					<Button disabled={btnDisabled} type={"submit"}>
+						Send
+					</Button>
 					<br />
+					{message && <div className={style.message}>{message}</div>}
 				</form>
 			</div>
 		</>
