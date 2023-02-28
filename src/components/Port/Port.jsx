@@ -2,20 +2,43 @@ import React from "react";
 import style from "./port.module.css";
 import Card from "../Shared/Card";
 import Button from "../Shared/Button";
+import miqr from "../../assets/miqr.png";
+import ticked from "../../assets/ticked.png";
 function Port() {
 	return (
 		<div className={style.Port} id="portfolio">
 			<h1 className={style.Phead}>Portfolio</h1>
 			<div className={style.cardbox}>
 				<Card>
-					<h3 className={style.ptxt}>Bread and eggs</h3>
+					<h3 className={style.ptxt}>MiQR - a QRcode generation site</h3>
 					<div className={style.feats}>
-						<div className={style.pbb}>Web development</div>
-						<div className={style.pbb}>Web development</div>
-						<div className={style.pbb}>Web development</div>
-						<div className={style.pbb}>Web development</div>
+						<div className={style.pbb}>Web</div>
+						<div className={style.pbb}>DJango</div>
+						<div className={style.pbb}>PostgreSQL</div>
+						<div className={style.pbb}>CSS </div>
 					</div>
-					<img className={style.portimg} src="" alt="" />
+					<img
+						className={style.portimg}
+						src={miqr}
+						alt="MiQR - a QRcode generation site"
+					/>
+					<a href="http://" target="_blank" rel="noopener noreferrer">
+						<Button>Visit</Button>
+					</a>
+				</Card>
+				<Card>
+					<h3 className={style.ptxt}>Ticked - a time management webapp</h3>
+					<div className={style.feats}>
+						<div className={style.pbb}>Web</div>
+						<div className={style.pbb}>React</div>
+						<div className={style.pbb}>Sass</div>
+						<div className={style.pbb}>Axios</div>
+					</div>
+					<img
+						className={style.portimg}
+						src={ticked}
+						alt="Ticked - a time management webapp"
+					/>
 					<a href="http://" target="_blank" rel="noopener noreferrer">
 						<Button>Visit</Button>
 					</a>

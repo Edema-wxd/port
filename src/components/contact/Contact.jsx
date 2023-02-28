@@ -104,6 +104,7 @@ function Contact() {
 						className={style.infield}
 						id={style.messtxt}
 						name="textarea"
+						rows="5"
 						placeholder="Send me a Message"
 						wrap="hard"
 						value={note}

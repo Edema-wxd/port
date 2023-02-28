@@ -39,3 +39,6 @@
 	border-radius: 6px;
 	border: 2px solid var(--back-color);
 }
+.portimg {
+	width: 400px;
+}
