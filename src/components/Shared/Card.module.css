@@ -1,0 +1,17 @@
+.card {
+	min-width: 10rem;
+	min-height: 12rem;
+	color: var(--back-color);
+	background-color: var(--black);
+	display: flex;
+	flex-direction: column;
+	border-radius: 12px;
+	border: 2px solid var(--back-color);
+	padding: 10px;
+	text-decoration: none;
+	text-align: left;
+	font-family: inherit;
+	font-size: 1rem;
+	padding: 0.5rem;
+	align-content: flex-start;
+}

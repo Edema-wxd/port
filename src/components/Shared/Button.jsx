@@ -9,7 +9,6 @@ function Button({ children, isDisabled, type, className }) {
 		</button>
 	);
 }
-
 Button.defaultProps = {
 	isDisabled: false,
 	type: "button",

@@ -20,7 +20,12 @@ function Contact() {
 		} else if (name !== "" && name.trim().length <= 5) {
 			setMessage("Name must be longer than that");
 			setbtnDisabled(true);
-		} else {
+		} else if (
+			name !== "" &&
+			name.trim().length <= 5 &&
+			note !== "" &&
+			note.trim().length <= 10
+		) {
 			setMessage(null);
 			setbtnDisabled(false);
 		}
@@ -30,7 +35,7 @@ function Contact() {
 		if (note === "") {
 			setbtnDisabled(true);
 			setMessage(null);
-		} else if (note !== "" && note.trim().length <= 10) {
+		} else if (note !== "" && note.trim().length <= 10 && name !== "") {
 			setMessage("Message must be longer than that");
 			setbtnDisabled(true);
 		} else {
@@ -106,7 +111,7 @@ function Contact() {
 						required
 					></textarea>
 					<br />
-					<Button disabled={btnDisabled} type={"submit"}>
+					<Button isDisabled={btnDisabled} type={"submit"}>
 						Send
 					</Button>
 					<br />

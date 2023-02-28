@@ -16,6 +16,10 @@
 .btn:hover {
 	background-color: var(--dblack);
 }
+.btn:disabled {
+	display: none;
+}
+
 .btnx {
 	color: var(--back-color);
 	width: fit-content;
