@@ -4,6 +4,7 @@ import Card from "../Shared/Card";
 import Button from "../Shared/Button";
 import miqr from "../../assets/miqr.png";
 import ticked from "../../assets/ticked.png";
+import air from "../../assets/air.png";
 function Port() {
 	return (
 		<div className={style.Port} id="portfolio">
@@ -39,7 +40,22 @@ function Port() {
 						src={ticked}
 						alt="Ticked - a time management webapp"
 					/>
-					<a href="http://" target="_blank" rel="noopener noreferrer">
+					<a href="https://ticked.hng.tech/">
+						<Button>Visit</Button>
+					</a>
+				</Card>
+				<Card>
+					<h3 className={style.ptxt}>
+						Metabnb - a real estate app for the metaverse
+					</h3>
+					<div className={style.feats}>
+						<div className={style.pbb}>Web3</div>
+						<div className={style.pbb}>React</div>
+						<div className={style.pbb}>Sass</div>
+						<div className={style.pbb}>Wallet connect</div>
+					</div>
+					<img className={style.portimg} src={air} alt="" />
+					<a href="https://task3-sigma.vercel.app/">
 						<Button>Visit</Button>
 					</a>
 				</Card>
