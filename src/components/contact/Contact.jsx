@@ -10,24 +10,22 @@ import { TiLocation } from "react-icons/ti";
 function Contact() {
 	const [name, setName] = useState("");
 	const [note, setNote] = useState("");
+	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
 	const [btnDisabled, setbtnDisabled] = useState(true);
 
 	const handleNameChange = (e) => {
 		if (name === "") {
 			setbtnDisabled(true);
-			setMessage(null);
+			setMessage("");
 		} else if (name !== "" && name.trim().length <= 5) {
 			setMessage("Name must be longer than that");
 			setbtnDisabled(true);
 		} else if (
 			name !== "" &&
-			name.trim().length <= 5 &&
-			note !== "" &&
-			note.trim().length <= 10
+			name.trim().length >= 5 
 		) {
-			setMessage(null);
-			setbtnDisabled(false);
+			setMessage("");
 		}
 		setName(e.target.value);
 	};
@@ -43,6 +41,14 @@ function Contact() {
 			setbtnDisabled(false);
 		}
 		setNote(e.target.value);
+	};
+	const handleEmailChange = (e) => {
+		if (email === "") {
+			setbtnDisabled(true);
+		} else if (email !== "" && email.trim().length <= 7) {
+			setbtnDisabled(true);
+		}
+		setEmail(e.target.value);
 	};
 
 	return (
@@ -96,7 +102,9 @@ function Contact() {
 						type="email"
 						id="email"
 						name="email"
+						value={email}
 						placeholder="Your email"
+						onChange={handleEmailChange}
 						required
 					/>
 					<br />

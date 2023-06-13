@@ -53,12 +53,12 @@
 	border-width: 0px;
 	color: var(--white);
 	background-color: var(--dblack);
-	padding-left: 8px;
-	padding-top: 4px;
+	padding: 4px 8px;
 }
 #messtxt {
 	resize: none;
 	height: 6rem;
+	padding: 10px;
 }
 
 .icons {

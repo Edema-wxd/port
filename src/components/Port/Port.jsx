@@ -11,7 +11,7 @@ function Port() {
 			<h1 className={style.Phead}>Portfolio</h1>
 			<div className={style.cardbox}>
 				<Card>
-					<h3 className={style.ptxt}>MiQR - a QRcode generation site</h3>
+					<h3 className={style.ptxt}>MiQR</h3>
 					<div className={style.feats}>
 						<div className={style.pbb}>Web</div>
 						<div className={style.pbb}>DJango</div>
@@ -28,7 +28,7 @@ function Port() {
 					</a>
 				</Card>
 				<Card>
-					<h3 className={style.ptxt}>Ticked - a time management webapp</h3>
+					<h3 className={style.ptxt}>Ticked</h3>
 					<div className={style.feats}>
 						<div className={style.pbb}>Web</div>
 						<div className={style.pbb}>React</div>
@@ -46,7 +46,7 @@ function Port() {
 				</Card>
 				<Card>
 					<h3 className={style.ptxt}>
-						Metabnb - a real estate app for the metaverse
+						Metabnb
 					</h3>
 					<div className={style.feats}>
 						<div className={style.pbb}>Web3</div>
