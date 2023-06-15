@@ -25,7 +25,7 @@ function Skills() {
 
 					<div className={style.skill}>Node.js</div>
 					<div className={style.skill}>Object Oriented Programming</div>
-					<div className={style.skill}>PostgresDB</div>
+					<div className={style.skill}>PostgresSQl</div>
 					
 					
 					<div className={style.skill}>Javascript</div>
