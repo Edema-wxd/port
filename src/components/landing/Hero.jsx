@@ -2,6 +2,7 @@ import React from "react";
 import style from "./landing.module.css";
 import Button from "../Shared/Button";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import portimg from "../../assets/portrait.png"
 
 function Hero() {
 	return (
@@ -19,17 +20,20 @@ function Hero() {
 					am steadfast and level-headed, thinking outside the box and willing to
 					take the lead as it is needed.
 				</p>
+				<div className={style.btnbox}>
 				<AnchorLink href="#contact">
-					<Button>Hire me</Button>
+					<Button>Contact me</Button>
 				</AnchorLink>
 
 				<a href="http://">
 					<Button className={style.btnx}>See My Resume</Button>
 				</a>
+
+				</div>
 			</div>
 
 			<div className={style.Himg}>
-				<img src="" alt="random" />
+				<img src={portimg} className={style.HIimg} alt="random" />
 			</div>
 		</div>
 	);

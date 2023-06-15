@@ -15,7 +15,7 @@ function Header() {
 						About
 					</AnchorLink>
 					<AnchorLink className={style.link} href="#skills">
-						Services
+						Skills
 					</AnchorLink>
 					<AnchorLink className={style.link} href="#portfolio">
 						Portfolio
