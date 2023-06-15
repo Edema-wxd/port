@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./skills.module.css";
 import django from "../../assets/django-seeklogo.com.svg"
+import python from "../../assets/python-seeklogo.com.svg"
 
 function Skills() {
 	return (
@@ -15,8 +16,7 @@ function Skills() {
 						<img className={style.Sicon} src={django} alt="" />
 						<div className={style.Stext}>
 							<h3>
-						Django
-
+								Django
 							</h3>
 						</div>
 					</div>
@@ -29,7 +29,14 @@ function Skills() {
 					
 					
 					<div className={style.skill}>Javascript</div>
-					<div className={style.skill}>Python</div>
+					<div className={style.skill}>
+					<img className={style.Sicon} src={python} alt="" />
+						<div className={style.Stext}>
+							<h3>
+								Python
+							</h3>
+						</div>
+					</div>
 					<div className={style.skill}>SQL</div>
 					
 				</div>
