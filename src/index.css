@@ -1,19 +1,23 @@
 :root {
-	--back-color: #06bcc1;
-	--black: #120d31;
-	--dblack: #19133f;
-	--white: #fcf7f8;
-	--dull: #f0f8ffbf;
+  --back-color: #06bcc1;
+  --black: #120d31;
+  --dblack: #19133f;
+  --white: #fcf7f8;
+  --dull: #f0f8ffbf;
 }
 
 #root {
-	font-family: "Lato", sans-serif;
-	color: var(--dull);
-	background-color: var(--black);
-	height: 100%;
+  font-family: "Lato", sans-serif;
+  color: var(--dull);
+  background-color: var(--black);
+  height: 100%;
 }
 
 body {
-	margin: 0%;
-	height: 100%;
+  margin: 0%;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
