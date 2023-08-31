@@ -1,27 +1,33 @@
 .skills {
-	padding: 6rem 6rem;
+  padding: 6rem 6rem;
+  height: 60vh;
 }
 
 .skillbox {
-	height: 50vh;
-	align-content: center;
-	justify-content: center;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-column-gap: 1rem;
-	grid-row-gap: 1rem; 
+  height: 50vh;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
 .skill {
-	display: flex;
-	gap: 1rem;
-	width: fit-content;
-	margin: auto;
-	padding: 0.25rem 1rem;
-	border-radius: 5px;
-	border: 2px solid var(--back-color);
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  min-width: 11rem;
+  min-height: 5rem;
+  margin: auto;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--back-color);
 }
 
-.Sicon{
-	width: 4rem;
+.Sicon {
+  width: 4rem;
+}
+.Stext {
+  margin: auto;
 }
