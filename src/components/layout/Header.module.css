@@ -1,46 +1,67 @@
 .header {
-	display: flex;
-	flex-direction: row;
-	gap: 6rem;
-	justify-content: space-between;
-	padding: 2rem 6rem;
-	box-shadow: 0px -5px 11px 2px var(--back-color);
-	position: sticky;
-	z-index: 5;
-	top: 0;
-	background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  box-shadow: 0px -5px 11px 2px var(--back-color);
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  background-color: var(--black);
 }
 
 .linktxt {
-	margin: 0%;
-	font-weight: 700;
-	font-size: 2rem;
-	color: var(--white);
+  margin: 0%;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white);
 }
 
 .drop {
-	display: flex;
-	align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 .linkarr {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
 .link {
-	text-decoration: none;
-	color: var(--dull);
-	font-size: 1.25rem;
-	align-self: center;
+  text-decoration: none;
+  color: var(--dull);
+  font-size: 1.25rem;
+  align-self: center;
 }
 
 .link:hover {
-	color: var(--back-color);
+  color: var(--back-color);
 }
 
 .menubtn {
-	display: none;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .linkarr {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header {
+    gap: 1rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menubtn {
+    display: none;
+  }
+  .linkarr {
+    display: none;
+  }
 }

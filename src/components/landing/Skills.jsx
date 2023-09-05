@@ -34,6 +34,7 @@ function Skills() {
               <h3>Web development</h3>
             </div>
           </div>
+          
 
           <div className={style.skill}>
             <img className={style.Sicon} src={nodejs} alt="" />

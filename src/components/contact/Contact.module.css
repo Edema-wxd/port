@@ -1,69 +1,95 @@
 .contact {
-	display: flex;
-	padding: 6rem;
-	justify-content: space-between;
-	height: 50vh;
+  display: flex;
+  padding: 6rem;
+  justify-content: space-between;
+  height: 50vh;
 }
 
 .add {
-	display: flex;
-	flex-direction: column;
-	gap: 1.5rem;
-	margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .addblock {
-	display: flex;
-	flex-direction: row;
-	gap: 1rem;
-	justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
 }
 .addtxt {
-	margin: 0px;
+  margin: 0px;
+  overflow: auto;
 }
 
 .conlink {
-	width: 30%;
+  width: 30%;
 }
 .conlinkarr {
-	display: flex;
-	align-content: center;
-	justify-content: flex-start;
-	gap: 1.25rem;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
 }
 
 .conform {
-	display: flex;
-	flex-direction: column;
-	gap: 0.75rem;
-	justify-content: flex-start;
-	width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: flex-start;
+  width: 55%;
 }
 
 .labels {
-	color: var(--white);
-	font-size: large;
+  color: var(--white);
+  font-size: large;
 }
 
 .infield {
-	font-size: 1rem;
-	font-family: inherit;
-	height: 3rem;
-	width: 98%;
-	border-radius: 5px;
-	border-width: 0px;
-	color: var(--white);
-	background-color: var(--dblack);
-	padding: 4px 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  height: 3rem;
+  width: 98%;
+  border-radius: 5px;
+  border-width: 0px;
+  color: var(--white);
+  background-color: var(--dblack);
+  padding: 4px 8px;
 }
 #messtxt {
-	resize: none;
-	height: 6rem;
-	padding: 10px;
+  resize: none;
+  height: 6rem;
+  padding: 10px;
 }
 
 .icons {
-	height: 1.25rem;
-	width: 1.25rem;
-	stroke: #0066cc;
-	color: #0066cc;
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #0066cc;
+  color: #0066cc;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    height: auto;
+  }
+  .conlink {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding: 6rem 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contact {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .conlink,
+  .conform {
+    width: auto;
+  }
 }

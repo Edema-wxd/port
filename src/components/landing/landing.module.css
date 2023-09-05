@@ -44,8 +44,37 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+  .headertxt {
+    font-size: xx-large;
+  }
+  .HTt {
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .hero {
+    padding: 6rem 2rem;
+  }
+  .HIimg {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .Himg {
+    width: auto;
+  }
+  .HIimg {
+    width: 50vw;
+  }
+  .Htxt {
+    width: auto;
+  }
+}
 @media only screen and (max-width: 375px) {
 }

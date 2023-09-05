@@ -31,6 +31,7 @@
   font-size: 0.8rem;
   text-align: center;
   padding: 0.5rem;
+
   color: var(--white);
   border-radius: 6px;
   border: 2px solid var(--back-color);
@@ -46,12 +47,27 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .feats {
     display: grid;
     grid-template-areas: ". .";
   }
+  .pbb {
+    padding: 0.4rem;
+  }
+  .cardbox {
+    gap: 2rem;
+  }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
+  .Port {
+    padding: 6rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cardbox {
+    grid-template-areas: ".";
+  }
 }

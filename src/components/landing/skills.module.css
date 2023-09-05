@@ -9,10 +9,8 @@
   align-content: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-template-areas: ". . .";
+  gap: 1rem;
 }
 .skill {
   display: flex;
@@ -31,4 +29,46 @@
 }
 .Stext {
   margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+  .skillbox {
+    height: auto;
+  }
+  .Sicon {
+    width: 3rem;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    padding: 6rem 2rem;
+  }
+  .skill {
+    gap: 0.5rem;
+    min-width: 7rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .skillbox {
+    grid-template-areas: ". .";
+  }
+  .Stext {
+    font-size: 0.9rem;
+  }
+  .Sicon {
+    width: 2rem;
+  }
+  .skill {
+    min-width: auto;
+    min-height: 4rem;
+  }
 }
