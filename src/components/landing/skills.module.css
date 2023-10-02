@@ -59,7 +59,9 @@
 
 @media only screen and (max-width: 400px) {
   .skillbox {
-    grid-template-areas: ". .";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .Stext {
     font-size: 0.9rem;
