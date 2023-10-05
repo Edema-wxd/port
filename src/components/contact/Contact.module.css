@@ -81,10 +81,6 @@
 @media only screen and (max-width: 600px) {
   .contact {
     padding: 6rem 2rem;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .contact {
     flex-direction: column;
     gap: 2rem;
   }

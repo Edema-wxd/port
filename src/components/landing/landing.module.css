@@ -57,13 +57,7 @@
 @media only screen and (max-width: 600px) {
   .hero {
     padding: 6rem 2rem;
-  }
-  .HIimg {
-    width: 40vw;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .hero {
+
     flex-direction: column-reverse;
   }
   .Himg {
@@ -75,6 +69,4 @@
   .Htxt {
     width: auto;
   }
-}
-@media only screen and (max-width: 375px) {
 }
