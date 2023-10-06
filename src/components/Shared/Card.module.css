@@ -31,3 +31,7 @@
   flex-direction: row;
   gap: 0.5rem;
 }
+.portimg{
+width: auto;
+height: auto;
+}
