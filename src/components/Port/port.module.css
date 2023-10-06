@@ -37,7 +37,7 @@
   border: 2px solid var(--back-color);
 }
 .portimg {
-  width: inherit;
+  width: auto;
 }
 
 @media only screen and (max-width: 1200px) {
