@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 600px) {
   .skills {
-    padding: 6rem 2rem;
+    padding: 2rem;
   }
   .skillbox {
     display: flex;

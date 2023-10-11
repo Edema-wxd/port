@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 600px) {
   .Port {
-    padding: 6rem 2rem;
+    padding: 2rem;
   }
   .cardbox {
     grid-template-areas: ".";

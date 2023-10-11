@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 600px) {
   .hero {
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
 
     flex-direction: column-reverse;
   }
