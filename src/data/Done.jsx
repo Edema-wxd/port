@@ -9,7 +9,7 @@ const done = [
     project: "MiQR",
     tools: ["Web", "Django", "PostgreSQL", "API"],
     picture: miqr,
-    linkto: "http://",
+    linkto: "https://edema-wxd.github.io/miqr-redo/",
   },
   {
     id: 2,
