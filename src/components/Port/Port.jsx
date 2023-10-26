@@ -11,6 +11,7 @@ function Port() {
         {Object.keys(done).map((job) => (
           <JobCard
             key={job}
+            id={done[job].id}
             name={done[job].project}
             tools={done[job].tools}
             imgtag={done[job].picture}

@@ -1,8 +1,11 @@
 import React from "react";
 import Button from "./Button";
 import style from "./Card.module.css";
+import { useNavigate } from "react-router-dom";
 
-function JobCard({ name, tools, imgtag, exlink }) {
+function JobCard({ id, name, tools, imgtag, exlink }) {
+  const navigate = useNavigate();
+
   return (
     <div className={style.card}>
       <h3 className={style.ptxt}>{name}</h3>
@@ -12,9 +15,9 @@ function JobCard({ name, tools, imgtag, exlink }) {
         ))}
       </div>
       <img className={style.portimg} src={imgtag} alt="" />
-      <a href={exlink}>
-        <Button>Visit</Button>
-      </a>
+      <div onClick={() => navigate(`details/${id}`)}>
+        <Button>View</Button>
+      </div>
     </div>
   );
 }

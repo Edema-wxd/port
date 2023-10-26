@@ -10,6 +10,8 @@ const done = [
     tools: ["Web", "Django", "PostgreSQL", "API"],
     picture: miqr,
     linkto: "http://",
+    summary: "Lorem",
+    kpi: ["lorem1", "lorem2", "lorem3"],
   },
   {
     id: 2,
@@ -17,6 +19,8 @@ const done = [
     tools: ["Web", "React", "Axios", "Node"],
     picture: ticked,
     linkto: "https://ticked.hng.tech/",
+    summary: "Lorem",
+    kpi: ["lorem1", "lorem2", "lorem3"],
   },
   {
     id: 3,
@@ -24,6 +28,8 @@ const done = [
     tools: ["Web 3.0", "React", "Node"],
     picture: air,
     linkto: "https://task3-sigma.vercel.app/",
+    summary: "Lorem",
+    kpi: ["lorem1", "lorem2", "lorem3"],
   },
   {
     id: 4,
@@ -31,6 +37,8 @@ const done = [
     tools: ["Web", "React", "Annimations", "Node"],
     picture: linked,
     linkto: "https://twitter-hackathon.vercel.app/",
+    summary: "Lorem",
+    kpi: ["lorem1", "lorem2", "lorem3"],
   },
 ];
 export default done;
