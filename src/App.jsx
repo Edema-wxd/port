@@ -9,12 +9,12 @@ function App() {
   return (
     <>
       <Router>
+        <Header />
         <Routes>
-          <Header />
           <Route exact path="/" element={<Land />}></Route>
-          <Route path="details/:portId" element={<Details/>} />
-          <Footer />
+          <Route path="details/:portId" element={<Details />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

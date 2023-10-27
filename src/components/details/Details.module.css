@@ -1,0 +1,21 @@
+.Details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.DInfo {
+  margin: 8px;
+}
+
+.DBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 600px) {
+  .Details {
+    flex-direction: row;
+  }
+}
