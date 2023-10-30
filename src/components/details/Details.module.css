@@ -1,6 +1,8 @@
 .Details {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -12,10 +14,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 8px;
+}
+
+.DInfo > p {
+  text-indent: 32px;
 }
 
 @media screen and (min-width: 600px) {
   .Details {
     flex-direction: row;
+    justify-content: center;
   }
 }

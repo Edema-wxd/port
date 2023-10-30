@@ -33,16 +33,16 @@ function Header() {
   } else {
     eskelebe = (
       <>
-        <Link className={style.link} href="/">
+        <Link className={style.link} to="/">
           About
         </Link>
-        <Link className={style.link} href="/">
+        <Link className={style.link} to="/">
           Skills
         </Link>
-        <Link className={style.link} href="/">
+        <Link className={style.link} to="/">
           Portfolio
         </Link>
-        <Link className={style.link} href="/">
+        <Link className={style.link} to="/">
           Contact
         </Link>
       </>

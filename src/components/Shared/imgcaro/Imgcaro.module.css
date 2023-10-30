@@ -1,7 +1,18 @@
 .Imgcaro {
-  width: 60vw;
-  margin: 2rem auto;
+  width: min-content;
+  margin: 32px auto;
+  align-self: center;
 }
 .Imgcpic {
-  width: 60vw;
+  width: 350px;
+}
+@media screen and (min-width: 600px) {
+  .Imgcaro {
+    margin: 2rem 2rem;
+  }
+  .Imgcpic {
+    max-width: 50vw;
+    width: auto;
+    min-width: 30vw;
+  }
 }

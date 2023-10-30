@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./details.module.css";
+import stylebtn from "../Shared/Button.module.css";
 import Imgcaro from "../Shared/imgcaro/Imgcaro";
 import { useParams, useNavigate } from "react-router-dom";
 import done from "../../data/Done";
@@ -25,10 +26,10 @@ function Details() {
         </ul>
         <div className={style.DBtns}>
           <a href={done[num].linkto}>
-            <Button>Visit</Button>
+            <Button className={stylebtn.btndets}>Visit</Button>
           </a>
           <div onClick={() => navigate(-1)}>
-            <Button>Back</Button>
+            <Button className={stylebtn.btndets}>Back</Button>
           </div>
         </div>
       </div>
