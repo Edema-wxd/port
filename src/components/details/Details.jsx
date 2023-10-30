@@ -18,7 +18,7 @@ function Details() {
       <div className={style.DInfo}>
         <h2>{done[num].project}</h2>
         <p>{done[num].summary}</p>
-        <h4>Key points</h4>
+        <h4>Highlights</h4>
         <ul>
           {Object.keys(done[num].kpi).map((item) => (
             <li>{done[num].kpi[item]}</li>

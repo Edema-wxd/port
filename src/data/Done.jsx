@@ -11,7 +11,11 @@ const done = [
     picture: miqr,
     linkto: "http://",
     summary: "Lorem",
-    kpi: ["lorem1", "lorem2", "lorem3"],
+    kpi: [
+      "Created a SaaS on Heroku using Django and PostgreSQL.",
+      "Led a team, improved HTML, JavaScript, and CSS to enhance user experience.",
+      "Gathered technical requirements, checked web compatibility, and maintained the site",
+    ],
   },
   {
     id: 2,
