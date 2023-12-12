@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./details.module.css";
+import style from "./Details.module.css";
 import stylebtn from "../Shared/Button.module.css";
 import Imgcaro from "../Shared/imgcaro/Imgcaro";
 import { useParams, useNavigate } from "react-router-dom";
