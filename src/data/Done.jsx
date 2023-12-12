@@ -10,7 +10,8 @@ const done = [
     tools: ["Web", "Django", "PostgreSQL", "API"],
     picture: miqr,
     linkto: "https://edema-wxd.github.io/miqr-redo/",
-    summary: "Lorem",
+    summary:
+      "The central feature of the application revolved around the generation and association of QR codes with individual users. The technology stack primarily consisted of the Django framework for the backend, powered by Python, and PostgreSQL for database management.",
     kpi: [
       "Created a SaaS on Heroku using Django and PostgreSQL.",
       "Led a team, improved HTML, JavaScript, and CSS to enhance user experience.",
@@ -23,17 +24,27 @@ const done = [
     tools: ["Web", "React", "Axios", "Node"],
     picture: ticked,
     linkto: "https://ticked.hng.tech/",
-    summary: "Lorem",
-    kpi: ["lorem1", "lorem2", "lorem3"],
+    summary:
+      "The product built to showcase a sophisticated virtual assistant website crafted with React, combining meticulous planning, user-centric design, front-end features, and a commitment to quality assurance. The result was an efficient and intuitive virtual assistant platform designed to meet user needs effectively.",
+    kpi: [
+      "Spearheaded the development of a virtual assistant website using the React framework to ensure a seamless and outstanding user experience.",
+      "Prioritized collaboration and communication within the team through regular meetings, fostering a cohesive development environment.",
+      "Addressed technical challenges and applied innovative solutions, enhancing problem-solving capabilities and contributing to the successful delivery of a high-quality virtual assistant website.",
+    ],
   },
   {
     id: 3,
     project: "Metabnb",
-    tools: ["Web 3.0", "React", "Node"],
+    tools: ["Web 3.0", "React", "Node", "Wallet Connect"],
     picture: air,
     linkto: "https://task3-sigma.vercel.app/",
-    summary: "Lorem",
-    kpi: ["lorem1", "lorem2", "lorem3"],
+    summary:
+      "This innovative project represents a forward-looking exploration at the intersection of real estate and the metaverse. Inspired by the success of Airbnb and aligned with Meta's vision, it seeks to redefine how individuals interact with digital spaces and shape the future of the evolving digital city landscape.",
+    kpi: [
+      "Built using the React framework to align with the principles of Web 3.0, emphasizing decentralization and improved user control.",
+      "Incorporates Wallet Connect technology to ensure a seamless and secure connection between users' digital wallets and the metaverse, enhancing the overall user experience.",
+      "Incorporates advanced technologies to create a realistic and immersive metaverse experience.",
+    ],
   },
   {
     id: 4,
