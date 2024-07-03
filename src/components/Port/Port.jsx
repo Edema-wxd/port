@@ -10,7 +10,7 @@ function Port() {
       <div className={style.cardbox}>
         {Object.keys(done).map((job) => (
           <JobCard
-            key={job}
+            key={done[job].id}
             id={done[job].id}
             name={done[job].project}
             tools={done[job].tools}

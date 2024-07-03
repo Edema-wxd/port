@@ -60,7 +60,7 @@ function Contact() {
           <div className={style.add}>
             <div className={style.addblock}>
               <TiLocation className={style.icons} />
-              <p className={style.addtxt}>Ibadan - Nigeria</p>
+              <p className={style.addtxt}>Nigeria</p>
             </div>
             <div className={style.addblock}>
               <BsTelephone className={style.icons} />

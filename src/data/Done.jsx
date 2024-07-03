@@ -1,7 +1,6 @@
 import miqr from "../assets/miqr.png";
 import ticked from "../assets/ticked.png";
 import air from "../assets/air.png";
-import linked from "../assets/linked.png";
 
 const done = [
   {
@@ -48,8 +47,3 @@ const done = [
   },
 ];
 export default done;
-{/**{  id: 4,  project: "Get Linked",  tools: ["Web", "React", "Annimations", "Node"],
-  picture: linked,  linkto: "https://twitter-hackathon.vercel.app/",
-  summary: "Lorem",  kpi: ["lorem1", "lorem2", "lorem3"],
-},*/
-}
