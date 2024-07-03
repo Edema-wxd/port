@@ -9,12 +9,12 @@ function Hero() {
     <div className={style.hero} id="hero">
       <div className={style.Htxt}>
         <h1 className={style.headertxt}>Hi, I'm Francis,</h1>
-        <h3>Fullstack Developer(Frontend Heavy)</h3>
+        <h3>Fullstack Developer</h3>
         <p className={style.HTt}>
           I'm a fullstack software developer, with a passion for frontend
           development. I am proficient in scripting languages such as Python and
           Javascript, as well as web development languages such as HTML, CSS,
-          and frameworks like Django and React.
+          HAML, and frameworks like Django and React.
         </p>
         <div className={style.btnbox}>
           <AnchorLink href="#contact">
