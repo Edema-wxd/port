@@ -1,0 +1,71 @@
+.Port {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 6rem 1rem;
+  justify-content: space-between;
+}
+
+.cardbox {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 4rem;
+  grid-template-areas: ". . .";
+}
+
+.ptxt {
+  color: var(--back-color);
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 1.25rem 0rem;
+}
+
+.feats {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.pbb {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+
+  color: var(--white);
+  border-radius: 6px;
+  border: 2px solid var(--back-color);
+}
+.portimg {
+  width: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardbox {
+    display: grid;
+    grid-template-areas: ". .";
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .feats {
+    display: grid;
+    grid-template-areas: ". .";
+  }
+  .pbb {
+    padding: 0.4rem;
+  }
+  .cardbox {
+    grid-template-areas: ".";
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Port {
+    padding: 2rem;
+  }
+  .cardbox {
+    grid-template-areas: ".";
+  }
+}
