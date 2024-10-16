@@ -3,9 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 6rem;
-  margin-bottom: 3rem;
-  height: 100%;
+  padding: 3rem 3rem;
+  height: auto;
+}
+.land {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .btnbox {
@@ -22,17 +27,19 @@
 }
 .Htxt {
   width: 45%;
+
+  text-align: left;
 }
 .HTt {
-  text-align: left;
   line-height: 2rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .Himg {
   width: 45%;
 }
 .HIimg {
   width: 30vw;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width: 1200px) {

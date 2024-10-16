@@ -8,8 +8,8 @@ function Hero() {
   return (
     <div className={style.hero} id="hero">
       <div className={style.Htxt}>
-        <h1 className={style.headertxt}>Hi, I'm Francis,</h1>
-        <h3>Fullstack Developer</h3>
+        <h1 className={style.headertxt}>Hi, I'm Francis Woods</h1>
+        <h2>Fullstack Developer</h2>
         <p className={style.HTt}>
           I'm a fullstack software developer, with a passion for frontend
           development. I am proficient in scripting languages such as Python and

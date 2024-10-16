@@ -6,7 +6,7 @@ import JobCard from "../Shared/JobCard";
 function Port() {
   return (
     <div className={style.Port} id="portfolio">
-      <h1 className={style.Phead}>Portfolio</h1>
+      <h1 className={style.Phead}>Projects</h1>
       <div className={style.cardbox}>
         {Object.keys(done).map((job) => (
           <JobCard
